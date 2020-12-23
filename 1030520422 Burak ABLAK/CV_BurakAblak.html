@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BayGAMER | About Us</title>
+        
+        <link rel="icon" href="images/icon.png" />
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+        <link href="css/my_main.css" rel="stylesheet">
+        <link href="css/about_us.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--<div id="contactUsForm" class="contact-popup mfp-with-anim mfp-hide" style="border-radius:5px;" >
+    <div class="contactusheader">
+        <h2>CONTACT US</h2><hr>
+        <div class="contactattention"><div class="attention-message">
+            <i class="glyphicon glyphicon-alert"></i>
+                <strong>ATTENTION:&nbsp;</strong>
+                This form is special for our <b>GAMER</b>s.If you are a developer <u>please</u> see our <a href="careers.php">careers page</a>.If you are in contact for business get in touch via <a href="mailto:business@baygamer.com?Subject=Business">e-mail</a>            </div>
+        </div><hr/>
+    </div>
+    <div class="contactusbody">
+        <div id="cnt-result"></div>
+        <form method="post" id="ajax-contact" action="sendcontactform.php" accept-charset="UTF-8">
+            <label for="cnttype" class="cntext">What type of contact:</label><br>
+            <select id="cnttype" class="cntformelemnt" name="cnttype" >
+                <option value="" selected="selected" >Please Select Type</option>
+                <option value="1">Bug improvements</option>
+                <option value="2">Gameplay Mechanics</option>
+                <option value="3">Some Other Thing...</option>
+            </select>
+            <label for="cntname" class="cntext">Your Name:</label><br>
+            <input type="text" id="cntname" class="cntformelemnt" name="cntname" maxlength="30" >
+            <label for="cntemail" class="cntext">Your E-mail:<p>(You will be answered to this email so please make sure you entered it correctly)</p></label><br>
+            <input type="email" id="cntemail" class="cntformelemnt" name="cntemail" maxlength="56" >
+            <label for="cntmessage" class="cntext">Message:</label><br>
+            <textarea id="cntmessage" class="cntformelemnt" name="cntmessage"></textarea><br/>
+            <img id="captcha" src="/securimage/securimage_show.php" alt="CAPTCHA Image" />
+            <label id="cntcaptchatext2" for="cntcaptchatext" class="cntext">Captcha:</label>
+            <input type="text" id="captcha_code" name="captcha_code" size="10" maxlength="6" /><a href="#" class="glyphicon glyphicon-repeat" style="color:limegreen; margin-left:10px; padding:5px; border:2px solid whitesmoke; border-radius:15px;" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false"></a>
+            <div class="cntsubmtparent">
+                <button type="submit" class="cntsubmitbtn">Send Message <i class="glyphicon glyphicon-circle-arrow-right"></i></button>
+            </div>
+        </form>
+    </div>
+</div>-->
+<div>
+    <a href="http://www.baygamer.com"><img id="top_logo" class="top_logo" src="images/top_background.png"></a>
+    <a href="http://www.baygamer.com"><img id="top_logo_small" class="top_logo_small" src="images/top_background_small.png"></a>
+</div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+                <img src="images/icon.png" height="28">
+            </button>
+            <a class="navbar-brand" id="navbar-logo" href="http://www.baygamer.com"><img src="images/navbar_logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navigationbar">
+        <form class="navbar-form navbar-right">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default search_btn" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Games</a>
+                <ul class="dropdown-menu">
+					<li><a href="games/imaze"><img src="images/imazeicon.png" height="24px">  iMaze</a></li>
+                    <!--<li><a href="">Lucky Collector</a></li>
+                    <li><a href="">-WW Wishing Well-</a></li>
+                    <li><a href="">3Duct</a></li>
+                    <li><a href="">Octagoned</a></li>-->
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" 
+                   href="#">Studio</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.php">About&nbspUs</a></li>
+                        <li><a href="#contactUsForm" class="contactUsBtn" data-effect="mfp-zoom-in">Contact</a></li>
+                        <li><a href="careers.php">Careers</a></li>
+                    </ul> 
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" 
+                   href=""><img src="images/icon_en.png"> English</a>
+                    <ul class="dropdown-menu">
+                        <li id="en"><a href="switch_lang.php?lang=en"><img src="images/icon_en.png" height="24px"> English
+                            </a>
+                        </li>
+                        <li id="tr"><a href="switch_lang.php?lang=tr"><img src="images/icon_tr.png" height="24px"> Türkçe
+                            </a>
+                        </li>
+                        <li id="de"><a href="switch_lang.php?lang=de"><img src="images/icon_de.png" height="24px"> Deutsch
+                            </a>
+                        </li>
+                        <li id="fr"><a href="switch_lang.php?lang=fr"><img src="images/icon_fr.png" height="24px"> Français
+                            </a>
+                        </li>
+                        <li id="it"><a href="switch_lang.php?lang=it"><img src="images/icon_it.png" height="24px"> İtalien
+                            </a>
+                        </li>
+                        <li id="ja"><a href="switch_lang.php?lang=ja"><img src="images/icon_ja.png" height="24px"> 日本の
+                            </a>
+                        </li>
+                        <li id="zh"><a href="switch_lang.php?lang=zh"><img src="images/icon_zh.png" height="24px"> 中国
+                            </a>
+                        </li>
+                    </ul> 
+            </li>
+        </ul>
+        <select hidden="true">
+            <option hidden="true" id="joinedlang" value="en"></option>
+        </select>
+        </div>
+    </div>
+</nav>        <div id="main">
+            <section class="blog_panel_bg" >
+                <div class="wrapper">
+                    <div class="container title">
+                        <h1>About&nbspMe</h1>
+                    </div>
+                </div>
+                <div class="wrapper content">
+                    <div class="container">
+                        <div class="abouts"><p>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü 2020-2021 Güz Dönemi</p>
+					    <p>Web Programlama Dersi Vize Ödevi</p></div>
+                        <div class="row media-grid">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <img class="img-responsive team-member" src="studio/team/BurakA.jpg" width="180" height="240">
+                                 <img class="img-responsive team-frame" src="images/frame_team.png" width="180" height="240">
+                                <div class="member-meta">
+                                    <p>Burak Rüzgar ABLAK</p>
+				    <h4>Projects</h4><p>&#9679; 5. TÜBİTAK Uluslararası İnsansız Hava Araçları Yarışması</p>
+							<p>&#9679; Jetson Nano ve Raspberry Pi ile Görüntü İşleme ve Nesne Takibi</p>
+                                    <h4>Favourite Game</h4><p>God Of War</p>
+                                    <a href="https://twitter.com/RuzgarABLAK" target="_blank">
+                                    <img height="42" width="42" src="images/social_icon_twitter.png">
+                                    </a>
+                                    <a href="https://www.instagram.com/burakablak/" target="_blank">
+                                    <img height="42" width="42" src="images/social_icon_instagram.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <img class="blog_panel_end" src="images/blog_panel_end.png">
+            </div>
+        </div>
+        <footer class="home">
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-r-edge">
+                    <div class="col-logoAddress">
+                        <img src="images/footer_logo.png" alt="BayGAMER">
+                        <address>&copy;2015<br>Kayseri/Turkey </address>
+                        <a href="https://www.google.com/maps/place/Kayseri,+T%C3%BCrkiye/@38.7233801,35.4001476,12z/data=!3m1!4b1!4m5!3m4!1s0x152b0e1d3fa4a74f:0x84bd8c4d5a4c2da7!8m2!3d38.720489!4d35.482597" target="_blank">See Map<i class="glyphicon glyphicon-link" ></i></a>
+                    </div>
+                </div>
+                <div id="joiningourfamily" class="col-sm-3 col-md-3 col-r-edge col-l-edge">
+                    <h4>Join Our Family</h4>
+                    <div>
+                        <div id="gameremailinputresponse" style="color:red;"></div>
+                        <form id="gamersignupform" method="post" action="registergamer.php" accept-charset="UTF-8">
+                            <input id="gameremailinput" type="email" name="gameremail" size="25" placeholder="Enter your email to subscribe..."><br/>
+                            <button type="submit" class="btn btn-primary">Join<i style="margin-left:5px;" class="glyphicon glyphicon-envelope"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-r-edge col-l-edge">
+                    <h4>Follow Us</h4>
+                    <div class="clearfix list">
+                        <a href="https://www.facebook.com/baygamerofficial" target="_blank">
+                        <img height="42" width="42" src="images/social_icon_facebook.png">
+                        </a>
+                        <a href="https://twitter.com/baygamerofficia" target="_blank">
+                        <img height="42" width="42" src="images/social_icon_twitter.png">
+                        </a>
+                        <a href="https://www.instagram.com/baygamerofficial" target="_blank">
+                        <img height="42" width="42" src="images/social_icon_instagram.png">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCDfTGFNnTZsbj24huywUYpw" target="_blank">
+                        <img height="42" width="42" src="images/social_icon_youtube.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-l-edge">
+                    <h4>Contact Us</h4>
+                    <a href="#contactUsForm" id="contactUsBtn" class="btn btn-primary contactUsBtn" data-effect="mfp-zoom-in">CONTACT US <i class="glyphicon glyphicon-send"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>        <!-- SCRIPTS -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="magnific-popup/jquery.magnific-popup.js"></script>
+        <script src="js/my_main.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
