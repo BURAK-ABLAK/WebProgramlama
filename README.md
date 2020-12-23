@@ -25,7 +25,6 @@ README.md
 1. Brackets
 1. PHPMyAdmin
 
-....
 # Kullanılan Yöntemler
 
 ***
